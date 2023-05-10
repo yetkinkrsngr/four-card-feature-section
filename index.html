@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /*  */
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--Grayish-Blue);
+    }
+    :root{
+      --Redd: hsl(0, 78%, 62%);
+      --Cyann: hsl(180, 62%, 55%);
+      --Orangee: hsl(34, 97%, 64%);
+      --Bluee: hsl(212, 86%, 64%);
+
+      --Very-Dark-Blue: hsl(234, 12%, 34%);
+      --Grayish-Blue: hsl(233, 24%, 93%);
+      --Very-Light-Gray: hsl(0, 0%, 98%);
+    }
+    main{
+      height: 100vh;
+    }
+    .header{ 
+
+      text-align: center;
+      margin-top: 50px;
+      font-size: 48px;
+      font-weight: 200;
+    }
+    .header-sub{
+      text-align: center;
+      font-size: 48px;
+      margin-top: -60px;
+      font-weight: 600;
+    }
+    .paragraf{
+      text-align: center;
+      padding: 0 600px 0 550px;
+      margin-top:-30px;
+      font-weight: 100;
+    }
+    .box{
+      width: 400px;
+      height: 250px;
+
+      border-radius:15px;
+      background: var(--Very-Light-Gray);
+    }
+    .super{
+      position: relative;
+      left: 220px;
+      top: 210px;
+      border-top: 5px solid var(--Bluee);
+    }
+    .build{
+      position: relative;
+      top: -200px;
+      left: 640px;
+      border-top: 5px solid var(--Redd);
+    }
+    .karma{
+      position: relative;
+      left: 640px;
+      top: -180px;
+      border-top: 5px solid var(--Orangee);
+    }
+    .calcu{
+      position: relative;
+      left: 1060px;
+      top: -550px;
+      border-top: 5px solid var(--Bluee);
+    }
+    .h-box{
+      padding-left: 35px;
+      padding-top: 15px;
+    }
+    .p-box{
+      padding-left: 35px;
+      margin-top: -20px;
+      font-weight: 100;
+      padding-right: 10px;
+    }
+    .img-box{
+      padding-left: 300px;
+      margin-top: 20px;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    
+<section>
+ <h1 class="header">Reliable, efficient delivery</h1> 
+ <h1 class="header-sub">Powered by Technology</h1> 
+
+ <p class="paragraf">Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful</p> 
+<div class="position">
+<article class="box super">
+ <h2 class="h-box">Supervisor</h2> 
+ <p class="p-box">Monitors activity to identify project roadblocks</p> 
+ <img src="images/icon-supervisor.svg" class="img-box" alt="">
+</article>
+
+  <article class="box build">
+ <h2 class="h-box">Builder Team</h2>  
+ <p class="p-box">Scans our talent network to create the optimal team for your project</p> 
+ <img src="images/icon-team-builder.svg" class="img-box" alt="">
+</article>
+
+  <article class="box karma">
+ <h2 class="h-box">Karma</h2> 
+ <p class="p-box">Regularly evaluates our talent to ensure quality</p> 
+ <img src="images/icon-karma.svg" class="img-box" alt="">
+</article>
+
+  <article class="box calcu">
+ <h2 class="h-box">Calculator</h2> 
+ <p class="p-box">Uses data from past projects to provide better delivery estimates</p> 
+ <img src="images/icon-calculator.svg" class="img-box" alt="">
+</article>
+</div>
+</section>
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Yetkin karasungur</a>.
+    </p>
+  </footer>
+</body>
+</html>
